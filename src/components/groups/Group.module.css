@@ -1,0 +1,30 @@
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.8rem;
+  color: black;
+}
+.link,
+.active {
+  text-decoration: none;
+  padding: 0.5rem 4.5rem;
+  border-radius: 1rem;
+}
+
+.active {
+  background: rgba(47, 47, 47, 0.17);
+}
+
+.link:is(:hover) {
+  background: rgba(47, 47, 47, 0.17);
+}
+
+.link .active {
+  background-color: red;
+}
+.groupName {
+  font-size: calc(var(--fs-xs));
+
+  font-weight: var(--fW-large);
+}

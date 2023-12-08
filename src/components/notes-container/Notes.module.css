@@ -1,0 +1,25 @@
+.notes {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.notesContainer {
+  flex-grow: 1;
+  display: flex;
+  gap: 1.5rem;
+  max-height: calc(100vh - 23rem);
+  flex-direction: column;
+  padding: 1rem 3rem;
+  overflow-y: scroll;
+}
+
+.notesContainer::-webkit-scrollbar {
+  background-color: var(--bgc-primary);
+  width: 0.625rem;
+  border-radius: 5px;
+}
+.notesContainer::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 5px;
+}

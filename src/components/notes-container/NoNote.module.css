@@ -1,0 +1,52 @@
+/* .noteContainer {
+  position: relative;
+}*/
+.banner {
+  width: 50rem;
+  height: 25rem;
+}
+.bannerContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.title {
+  font-size: var(--fs-xl);
+  text-align: center;
+}
+
+.para {
+  font-size: calc(var(--fs-normal) * 1.325);
+  font-weight: var(--fW-large);
+  padding: 0 25.5rem;
+  color: #292929;
+}
+
+.encrytpMessage {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 14rem;
+}
+
+@media screen and (max-width: 1600px) {
+  .para {
+    padding: 0 20rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .para {
+    padding: 0 16rem;
+  }
+}
+@media screen and (max-width: 960px) {
+  .para {
+    font-size: calc(var(--fs-normal));
+    padding: 0 8rem;
+  }
+  .banner {
+    width: 30rem;
+    height: 15rem;
+  }
+}

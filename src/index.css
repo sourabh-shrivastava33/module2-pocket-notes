@@ -1,0 +1,96 @@
+/* https://www.joshwcomeau.com/css/custom-css-reset/ */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+}
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*
+  8. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+#root {
+  min-height: 100dvh;
+  width: 100%;
+}
+
+:root {
+  --ff: "Roboto", sans-serif;
+  --fw-small: 400;
+  --fW-medium: 500;
+  --fw-large: 700;
+  --fw-max: 900;
+  --fs-normal: 1rem;
+  --fs-xs: 1.5rem;
+  --fs-small: 1.875rem;
+  --fs-large: 2.1875rem;
+  --fs-xl: 3.125rem;
+  --bgc-primary: #dae5f5;
+  --bgc-secondary: #001f8b;
+  --color-neutral: #fff;
+}
+
+@media screen and (max-width: 1600px) {
+  html {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 80%;
+  }
+}

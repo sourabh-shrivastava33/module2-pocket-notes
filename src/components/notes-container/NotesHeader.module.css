@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  min-width: 100%;
+  min-height: 5.2rem;
+  gap: 2.4rem;
+  padding: 0 2.4rem;
+  background-color: var(--bgc-secondary);
+}
+
+.groupName {
+  font-size: var(--fs-xs);
+  color: var(--color-neutral);
+}
+
+.back {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 520px) {
+  .back {
+    display: block;
+  }
+  .header {
+    gap: 1.2rem;
+    padding: 0 1.2rem;
+  }
+}
