@@ -20,14 +20,6 @@
   cursor: pointer;
 }
 
-/* .imgAdd {
-  position: fixed;
-  height: 5rem;
-  width: 5rem;
-  bottom: 2.25rem;
-  left: 23rem;
-}*/
-
 .plus {
   position: fixed;
   color: #fff;
@@ -40,6 +32,13 @@
 @media screen and (max-width: 520px) {
   .hidden {
     display: none;
+  }
+  .addContainer {
+    bottom: 4.25rem;
+    left: 24rem;
+  }
+  .plus {
+    bottom: 3.6rem;
   }
   .groups {
     flex-grow: 1;
