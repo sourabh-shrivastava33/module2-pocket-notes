@@ -107,7 +107,42 @@
 
 @media screen and (max-width: 520px) {
   .modal {
-    max-width: 30rem;
-    max-height: 15rem;
+    width: 27rem;
+    height: 16rem;
+    padding: 0.8rem;
+  }
+  .nameInputContainer {
+    gap: 2.4rem;
+  }
+  .nameInputContainer label {
+    font-size: calc(var(--fs-xs) * 0.8);
+    font-weight: var(--fw-large);
+  }
+  .nameInputContainer input {
+    width: 14.6rem;
+    height: 2.1rem;
+  }
+  .colorContainer > span {
+    font-size: calc(var(--fs-xs) * 0.8);
+    font-weight: var(--fw-large);
+  }
+  .colors {
+    gap: 0.6rem;
+  }
+  .buttonContainer {
+    text-align: center;
+
+    margin: 2rem 0;
+  }
+  .buttonContainer button {
+    width: 7.8rem;
+    height: 2.4rem;
+
+    border-radius: 9px;
+  }
+  .head {
+    font-size: calc(var(--fs-xs) * 1.2);
+    font-weight: var(--fw-large);
+    margin-bottom: 1rem;
   }
 }

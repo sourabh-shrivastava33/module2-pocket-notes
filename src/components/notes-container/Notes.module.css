@@ -23,3 +23,9 @@
   background-color: #ffffff;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 520px) {
+  .notesContainer {
+    padding: 1rem 1rem;
+  }
+}
