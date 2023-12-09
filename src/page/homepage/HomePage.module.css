@@ -1,6 +1,6 @@
 .homepage {
   position: relative;
   display: flex;
-  min-height: 100dvh;
+  max-height: 100dvh;
   font-family: var(--ff);
 }
