@@ -22,7 +22,6 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   height: 100%;
-  overflow: hidden;
 }
 /*
   5. Improve media defaults
