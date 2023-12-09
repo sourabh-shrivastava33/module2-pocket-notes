@@ -15,7 +15,7 @@ const NotesHeader = () => {
         src={backArrow}
         alt="back arrow"
         className={styles.back}
-        onClick={() => navigate(-1)}
+        onClick={() => navigate("/")}
       />
       <Initial name={name} color={color} />
       <span className={styles.groupName}>{name}</span>
