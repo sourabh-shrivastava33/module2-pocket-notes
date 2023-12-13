@@ -10,7 +10,7 @@ const Error = () => {
       <img src={notFound} alt="not found" className={styles.image} />
       <div className={styles.errorInfo}>
         <h1>
-          <span>{group}</span> Group does'nt exit{" "}
+          <span>{group}</span> group Not found
         </h1>
         <Link to="/" className={styles.link}>
           Back home
