@@ -22,7 +22,7 @@
 
 .plus {
   position: fixed;
-  color: #fff;
+  color: var(--color-white);
   font-size: 4.325rem;
   font-weight: var(--fs-large);
   bottom: 1.6rem;

@@ -3,6 +3,7 @@ import HomePage from "./page/homepage/HomePage";
 import NoNote from "./components/notes-container/NoNote";
 import Notes from "./components/notes-container/Notes";
 import { GroupsProvider } from "./contexts/GroupsProvider";
+
 import ProtectedRoute from "./components/protected route/ProtectedRoute";
 function App() {
   return (

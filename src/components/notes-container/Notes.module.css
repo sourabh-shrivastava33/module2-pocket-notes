@@ -20,7 +20,7 @@
   border-radius: 5px;
 }
 .notesContainer::-webkit-scrollbar-thumb {
-  background-color: #ffffff;
+  background-color: var(--color-white);
   border-radius: 5px;
 }
 

@@ -1,0 +1,33 @@
+.error {
+  width: 100%;
+  height: 100dvh;
+  background-color: var(--bgc-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error h1 {
+  font-size: var(--fs-large);
+}
+.error h1 > span {
+  color: var(--bgc-secondary);
+}
+
+.errorInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.link {
+  text-decoration: none;
+  font-size: var(--fs-xs);
+  color: #777;
+}
+
+.image {
+  width: 25rem;
+  height: 25rem;
+}

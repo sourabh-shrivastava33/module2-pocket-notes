@@ -20,7 +20,7 @@
 }
 
 .textarea::-webkit-scrollbar {
-  background-color: #fff;
+  background-color: var(--color-white);
   width: 0.625rem;
   border-radius: 5px;
 }

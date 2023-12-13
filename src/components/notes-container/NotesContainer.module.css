@@ -1,6 +1,6 @@
 .notes {
   flex-grow: 1;
-  background-color: #dae5f5;
+  background-color: var(--bgc-primary);
   width: calc(100vw - 26rem);
 }
 @media screen and (max-width: 520px) {

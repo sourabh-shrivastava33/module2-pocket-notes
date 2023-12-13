@@ -78,11 +78,12 @@ h6 {
   --fs-normal: 1rem;
   --fs-xs: 1.5rem;
   --fs-small: 1.875rem;
+  --fs-medium: 2rem;
   --fs-large: 2.1875rem;
   --fs-xl: 3.125rem;
   --bgc-primary: #dae5f5;
   --bgc-secondary: #001f8b;
-  --color-neutral: #fff;
+  --color-white: #fff;
 }
 
 @media screen and (max-width: 1600px) {
