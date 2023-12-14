@@ -5,6 +5,7 @@ import Notes from "./components/notes-container/Notes";
 import { GroupsProvider } from "./contexts/GroupsProvider";
 
 import ProtectedRoute from "./components/protected route/ProtectedRoute";
+import Error from "./components/error/Error";
 function App() {
   return (
     <BrowserRouter>
@@ -26,6 +27,7 @@ function App() {
               </ProtectedRoute>
             }
           />
+          <Route path="*" element={<Error />} />
         </Route>
       </Routes>
     </BrowserRouter>

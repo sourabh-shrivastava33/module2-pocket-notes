@@ -4,7 +4,6 @@ import { formatDateAndTime } from "../../utils/helper";
 import dot from "../../assets/icons/dot.svg";
 import styles from "./NoteBox.module.css";
 const NoteBox = ({ createdAt, note }) => {
-  console.log(createdAt, note);
   const date = formatDateAndTime(createdAt, "date");
   const time = formatDateAndTime(createdAt, "time");
   return (

@@ -27,6 +27,6 @@
 @media screen and (max-width: 520px) {
   .notesContainer {
     padding: 1rem 1rem;
-    max-height: calc(100dvh - 16rem);
+    max-height: calc(100dvh - 18rem);
   }
 }

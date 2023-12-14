@@ -22,15 +22,26 @@
   align-items: center;
   margin-top: 2rem;
 }
+.errorInfo h3 {
+  font-size: var(--fs-small);
+  margin: 1.5rem 0;
+  line-height: 1.2;
+}
+
 .link {
   text-decoration: none;
   font-size: var(--fs-xs);
-  color: #777;
+  color: var(--bgc-secondary);
+  letter-spacing: 1.2px;
+  transition: all 0.3s;
+}
+.link:hover {
+  box-shadow: 0 2px 0 0 var(--bgc-secondary);
 }
 
 .image {
-  width: 25rem;
-  height: 25rem;
+  max-width: 25rem;
+  margin-top: -3rem;
 }
 @media screen and (max-width: 520px) {
   .error h1 {
@@ -38,7 +49,6 @@
   }
   .link {
     text-decoration: none;
-    font-size: var(--fs-normal);
-    color: #777;
+    font-size: var(--fs-xs);
   }
 }
