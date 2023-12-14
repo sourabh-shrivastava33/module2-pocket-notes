@@ -42,4 +42,7 @@
   .textareaBox {
     min-height: 10rem;
   }
+  .saveButton {
+    width: 2.2rem;
+  }
 }
