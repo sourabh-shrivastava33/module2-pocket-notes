@@ -39,12 +39,7 @@ const AddGroup = ({ setShowModal }) => {
       localStorage.setItem("groups", JSON.stringify(newGroupsArr));
       return newGroupsArr;
     });
-    console.log(
-      name
-        .split(" ")
-        .map((el) => el.toLowerCase())
-        .join(" ")
-    );
+
     setShowModal((prev) => !prev);
   }
   return (

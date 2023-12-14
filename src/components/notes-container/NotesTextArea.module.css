@@ -1,7 +1,6 @@
 .textareaContainer {
   padding: 1.4rem;
   background-color: var(--bgc-secondary);
-  border-bottom-left-radius: 15px;
 }
 .textareaBox {
   position: relative;
@@ -38,4 +37,9 @@
   right: 0.9rem;
   bottom: 2.6rem;
   cursor: pointer;
+}
+@media screen and (max-width: 520px) {
+  .textareaBox {
+    min-height: 8rem;
+  }
 }
